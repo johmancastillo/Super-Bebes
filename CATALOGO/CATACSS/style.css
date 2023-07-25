@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(247, 242, 242);
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    min-height: 100vh
+}
+
+main {
+    max-width: 2400px;
+    margin: auto;
+    line-height: 1.2;
+    margin-top: 120px;
+}
+header {
+  background-color: #b590b7;
+  color: #fff;
+  padding: 8px;
+  font-size: 23px;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+  .menu-icon {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .navbar ul li {
+    margin: 2em;
+    display: flex;
+  }
+
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+  }
+
+.menu li {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid transparent;
+    transition: all 0.2s; 
+  }
+
+.menu li:hover {
+  background-color: #cfaad9;
+  border: 2px solid;
+  border-color: black; 
+  transform: scale(1.1);
+  border-radius: 5px;
+ 
+}
+  
+.menu a:hover {
+  color: #fff;
+}
+
+.logo{
+  background-image: url('https://img.freepik.com/vector-gratis/fondo-morado-rosa-nublado_91008-257.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  margin-top: 0px;
+}
+
+#logo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    }
+
+.h1principal{
+  background-image: url('https://us.123rf.com/450wm/cepera/cepera1310/cepera131000073/23325537-cielo-p%C3%BArpura-con-deslumbrante-sol-posici%C3%B3n-de-la-plaza-central-de-cultivos.jpg?ver=6');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  color: rgb(64, 39, 247);
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  article img {
+    width: 400px;
+    height: 400px;
+    transition: transform 0.3s ease;
+  }
+
+  .wa1 img{
+    width: 32px;
+    height: 32px;
+  }
+
+  .razon {
+    margin-top: 50px;
+    background-image: url('/CATALOGO/img/fondo\ de\ pago.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(64, 39, 247);
+  }
+  
+  .razon article {
+    margin-bottom: 60px; 
+    font-size: larger;
+  }
+
+  .razon ul li{
+    list-style: none;
+    margin-top: 30px;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-top: 10px;
+    
+    }
+    h2 {
+    font-size: 50px;
+    margin-top: 10px;
+    }
+    
+    p{
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+  
+  .razon article h2{
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .razon article ul li{
+    padding-bottom: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .razon article ul li img{
+    width: 40px;
+    height: 40px;
+  }
+
+    footer {
+      background-color: #c56161; color:#fbfbfb;
+      text-size-adjust: 18px;
+      font-family: 'Lato', sans-serif;
+      max-width: 1800px;
+      margin: auto;
+      text-align: center;
+      height: 90px;
+      margin-top: 100px;
+      padding: 10px;
+      }
+
+      .contactos{
+        background-image: url('https://img.freepik.com/vector-premium/fondo-azul-morado-fondo-azul_217752-3073.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 30px;
+        max-width: 800px;
+        margin: auto;
+      }
+      
+      .contactos nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 200px;
+      }
+      
+      .contactos nav ul li{
+        list-style: none;
+        margin: auto;
+      }
+      
+      .contactos nav img{
+        width: 72px;
+      }
+      .contactos h2{
+        color: azure;
+      }
+
+      @media screen and (max-width: 1200px) {
+        .catalogo{
+            grid-template-columns: repeat(1, 1fr);
+        }
+      }
