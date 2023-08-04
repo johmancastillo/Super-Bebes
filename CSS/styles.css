@@ -383,13 +383,12 @@ p{
   }
   
   .inicial article img {
-    width: 150px;
-    height: 300px;
+    width: 100%;
     border-radius: 40%;
     text-align: center;
     margin-top: 15px;
-    padding-right: 80px;
-    padding-left: 75px;
+    padding-right: 100px;
+    padding-left: 95px;
     padding-top: 2px;
   }
   
@@ -413,8 +412,7 @@ p{
   }
   
   .segunda article img {
-    max-width: 300px;
-    min-width: 300px;
+    width: 100%;
     border-radius: 20px;
   }
   .segunda p {
@@ -468,8 +466,8 @@ p{
   width: 400px;
   margin-top: 15px;
   margin-right: 10px;
-  margin-left: 10px;
-  padding-right: 20px;
+  margin-left: 1px;
+  padding-right: 60px;
   text-align: center;
   }
   /*reparar posición de la imagen*/
@@ -484,6 +482,8 @@ p{
   flex-direction: column;
   justify-content: space-between;
   margin-top: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
   }
 
   .cuarta article {
@@ -491,7 +491,7 @@ p{
   }
   
   .cuarta figure img{
-  width: 400px;
+    width: 100%;
   border-radius: 20px;
   
   }
@@ -520,7 +520,7 @@ p{
   background-position: center;
   padding-top: 3px;
   border-radius: 30px;
-  max-width: 800px;
+  width: 100%;
   margin: auto;
   height: 250px;
   }
@@ -576,6 +576,12 @@ p{
     margin-top: 100px;
     padding: 5px;
     padding-top: 0px;
+    }
+
+    footer p{
+      font-size: 18px;
+      padding: 5px;
+      padding-top: 18px;
     }
 }
 
