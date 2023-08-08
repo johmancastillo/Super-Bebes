@@ -133,7 +133,7 @@ header {
 
   .razon {
     margin-top: 50px;
-    background-image: url('/CATALOGO/img/fondo_de_pago.png');
+    background-image: url('/CATALOGO/img/fondo_de\ _pago2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -233,6 +233,12 @@ header {
         .catalogo article{
           padding-left: 5px;
           padding-right: 20px;
+          margin-right: 10px;
+        }
+
+        .catalogo article p{
+          font-size: 25px;
+          padding-right: 10px;
           margin-right: 10px;
         }
 
